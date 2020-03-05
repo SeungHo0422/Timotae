@@ -1,28 +1,52 @@
-.TITLE{
-    text-align:center;
-}
+
+/* common css */
 
 body {
+    background: #f8f9fa;
+}
+
+/* header css */
+
+header .nav-layout {
+    margin-left: 48px;
+}
+
+/* section common */
+
+section {
+    background: white;
+}
+
+/* section-1 css */
+
+section .description {
+    text-align: center;
     font-family: "Nanum Gothic", sans-serif;
     background-color: whitesmoke;
+    margin-top:50px;
 }
 
-.maintitle {
-    padding-top:20px;
-    padding-bottom:15px;
+section .title-box {
+    width: 50%;
+    border: 3px solid #71DAEB;
     display: inline-block;
-}
-.subtitle {
-    padding-bottom:20px;
-    display: inline-block;
+    border-radius: 12px;
+    margin: 48px 0px 48px 0px;
+   
 }
 
-.TITLE {
-    border: 10px solid powderblue;
-    margin-top:100px;
-    margin-bottom:70px;
-    width:540px;
-    height:240px;
-    text-align:center;
-    
+.title-box .description-title {
+    font-weight: bold;
+    margin-top: 40px;
+}
+.title-box .description-sub {
+    margin: 18px 0px 40px 0px;
+}
+
+@media(max-width: 978px) {
+
+}
+
+@media(min-width: 978px) {
+
 }

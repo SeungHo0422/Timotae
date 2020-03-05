@@ -1,100 +1,234 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <title> 티모태 - 마스크 기부 서비스 </title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-        <link rel='stylesheet' href='master.css'>
-    </head>
-    <body class="pt-5">
-        <nav id="navbar-example2" class="navbar fixed-top navbar-light bg-light" style="background-color: #71DAEB !important;">
-            <a class="navbar-brand" href=".maintitle">티.모.태.</a>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" href="#Introduce">서비스 소개</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Cherish">기부하기</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Current">기부현황</a>
-              </li>
-            </ul>
-          </nav>
-          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-            <div class="TITLE">
-                <h1 class="maintitle">티모태 - 티끌 모아 태산</h1>
-                <h5 class="subtitle">마스크 기부 서비스 플랫폼</h5>
-            </div>
-            <div>
-                <h4 id="Introduce">서비스 소개 페이지</h4>
-                <p>동기들의 논쟁을 보고 한 마디 거든다.
+<html lang="en">
+<head>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-                    내가 전에 쓴 글에서도 언급했지만...
-                    
-                    좌, 우익은 새의 양 날개와 같아서 세상을 끌고 가는 두  축이라 시대 상황에 따라 득세를 넘겨주고 받을 수 있다. 그리고 시대가 바뀜에 따라 진보는 더 새로운 진보에게 밀려나기도 한다. 그리고 보수는 대중의 지지를 잃지 않으려고 사회적 책임을 다하는 한편  끊임없는 자기혁신을 하면서 생명력을 유지해가고 있다. 300년 역사를 자랑하는 영국의 경우 처럼.
-                    
-                    그래서 좌우 논쟁은 일단 접어두고, 이번 사건이 갖고 있는 문제의 본질을 한번 따져보자. 내 색깔부터 밝힌다. 나는 테스트 해보나 마나 중도 보수 우파다. 우파지만 때로는 사안별로 좌파의 목소리에도 귀를 기울이는 유연성을 갖고 있다. 노무현 대통령이 한참 욕 먹고 있을 때도 그의 말에 귀울였었고, 그를 싫어하던 아내의 손을 이끌고 봉하마을도 다녀왔다.
-                    
-                    본론으로 들어가서 이번 사건의 본질을 따지자면 나는 '기준과 선의 문제다' 라고 감히 단언한다. 군에서는 줄을 세우기 전에 기준부터 정한다. 그럼 기준되는 병사가 오른 손을 쳐들고 '기준!'하고 외치면 그에 따라 오와 열을 맞추어 정열을 하게 되는 것이다. 사회는 기준이 서야 질서가 유지되며 기준이 무너지면 질서가 무너지게 되어 있다. 기준은 기본이며 근본이며 원칙이며 윤리이고 법이기도 하다.
-                    
-                    줄자에는 한쪽에 cm가 표기되어 있고, 다른 쪽에는 inch가 표기되어 있는데 경우에 따라 cm로 재다가 inch로 잰다면 어떻게 될까? 형평의 원리에 어긋나기  때문에 난리가 날 것이다. 내가 볼 때 지금이 꼭 그렇다. 국회, 언론, 검찰이 내부자가 되어 이중잣대를 들이밀며 세상을 재단하고 있는 것이다. 국회의원이 앞장서면 언론은 선동하고 검찰이 행동대장 역할을 하고 있는 꼴이다. 평정심을 잃은 정도가 아니라 제정신이 아닌 것 같다.
-                    
-                    간 1조원의 매출을 올리는 기업도 몇 개 되지 않는 나라에 분기에 벌어들이는 이익만 10조 가까이 되는 고마운 기업을 잡아먹지 못해 안달하는 모양새라 참 보기 거북하구나. 외국 투자지분들이 합세하여 한국은 초일류기업이 활동하기 적합한 토양이 아니니 본사를 외국으로 옮기자고 투합하면 어쩌나 하는 걱정마저 든다. 황금알을 낳는 거위를 잡고 보니 정작 뱃속에는 황금알이 하나도 없더라는 우화도 모르단 말인가?
-                </p>
-            </div>
-            <div>
-                <h4 id="Cherish">기부하기 페이지</h4>
-                <p>동기들의 논쟁을 보고 한 마디 거든다.
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-                    내가 전에 쓴 글에서도 언급했지만...
-                    
-                    좌, 우익은 새의 양 날개와 같아서 세상을 끌고 가는 두  축이라 시대 상황에 따라 득세를 넘겨주고 받을 수 있다. 그리고 시대가 바뀜에 따라 진보는 더 새로운 진보에게 밀려나기도 한다. 그리고 보수는 대중의 지지를 잃지 않으려고 사회적 책임을 다하는 한편  끊임없는 자기혁신을 하면서 생명력을 유지해가고 있다. 300년 역사를 자랑하는 영국의 경우 처럼.
-                    
-                    그래서 좌우 논쟁은 일단 접어두고, 이번 사건이 갖고 있는 문제의 본질을 한번 따져보자. 내 색깔부터 밝힌다. 나는 테스트 해보나 마나 중도 보수 우파다. 우파지만 때로는 사안별로 좌파의 목소리에도 귀를 기울이는 유연성을 갖고 있다. 노무현 대통령이 한참 욕 먹고 있을 때도 그의 말에 귀울였었고, 그를 싫어하던 아내의 손을 이끌고 봉하마을도 다녀왔다.
-                    
-                    본론으로 들어가서 이번 사건의 본질을 따지자면 나는 '기준과 선의 문제다' 라고 감히 단언한다. 군에서는 줄을 세우기 전에 기준부터 정한다. 그럼 기준되는 병사가 오른 손을 쳐들고 '기준!'하고 외치면 그에 따라 오와 열을 맞추어 정열을 하게 되는 것이다. 사회는 기준이 서야 질서가 유지되며 기준이 무너지면 질서가 무너지게 되어 있다. 기준은 기본이며 근본이며 원칙이며 윤리이고 법이기도 하다.
-                    
-                    줄자에는 한쪽에 cm가 표기되어 있고, 다른 쪽에는 inch가 표기되어 있는데 경우에 따라 cm로 재다가 inch로 잰다면 어떻게 될까? 형평의 원리에 어긋나기  때문에 난리가 날 것이다. 내가 볼 때 지금이 꼭 그렇다. 국회, 언론, 검찰이 내부자가 되어 이중잣대를 들이밀며 세상을 재단하고 있는 것이다. 국회의원이 앞장서면 언론은 선동하고 검찰이 행동대장 역할을 하고 있는 꼴이다. 평정심을 잃은 정도가 아니라 제정신이 아닌 것 같다.
-                    
-                    간 1조원의 매출을 올리는 기업도 몇 개 되지 않는 나라에 분기에 벌어들이는 이익만 10조 가까이 되는 고마운 기업을 잡아먹지 못해 안달하는 모양새라 참 보기 거북하구나. 외국 투자지분들이 합세하여 한국은 초일류기업이 활동하기 적합한 토양이 아니니 본사를 외국으로 옮기자고 투합하면 어쩌나 하는 걱정마저 든다. 황금알을 낳는 거위를 잡고 보니 정작 뱃속에는 황금알이 하나도 없더라는 우화도 모르단 말인가?
-                </p>
-            </div>
-            <div>
-            <h4 id="Current">기부현황 페이지</h4>
-            <p>동기들의 논쟁을 보고 한 마디 거든다.
+    <!-- css file -->
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
-                내가 전에 쓴 글에서도 언급했지만...
-                
-                좌, 우익은 새의 양 날개와 같아서 세상을 끌고 가는 두  축이라 시대 상황에 따라 득세를 넘겨주고 받을 수 있다. 그리고 시대가 바뀜에 따라 진보는 더 새로운 진보에게 밀려나기도 한다. 그리고 보수는 대중의 지지를 잃지 않으려고 사회적 책임을 다하는 한편  끊임없는 자기혁신을 하면서 생명력을 유지해가고 있다. 300년 역사를 자랑하는 영국의 경우 처럼.
-                
-                그래서 좌우 논쟁은 일단 접어두고, 이번 사건이 갖고 있는 문제의 본질을 한번 따져보자. 내 색깔부터 밝힌다. 나는 테스트 해보나 마나 중도 보수 우파다. 우파지만 때로는 사안별로 좌파의 목소리에도 귀를 기울이는 유연성을 갖고 있다. 노무현 대통령이 한참 욕 먹고 있을 때도 그의 말에 귀울였었고, 그를 싫어하던 아내의 손을 이끌고 봉하마을도 다녀왔다.
-                
-                본론으로 들어가서 이번 사건의 본질을 따지자면 나는 '기준과 선의 문제다' 라고 감히 단언한다. 군에서는 줄을 세우기 전에 기준부터 정한다. 그럼 기준되는 병사가 오른 손을 쳐들고 '기준!'하고 외치면 그에 따라 오와 열을 맞추어 정열을 하게 되는 것이다. 사회는 기준이 서야 질서가 유지되며 기준이 무너지면 질서가 무너지게 되어 있다. 기준은 기본이며 근본이며 원칙이며 윤리이고 법이기도 하다.
-                
-                줄자에는 한쪽에 cm가 표기되어 있고, 다른 쪽에는 inch가 표기되어 있는데 경우에 따라 cm로 재다가 inch로 잰다면 어떻게 될까? 형평의 원리에 어긋나기  때문에 난리가 날 것이다. 내가 볼 때 지금이 꼭 그렇다. 국회, 언론, 검찰이 내부자가 되어 이중잣대를 들이밀며 세상을 재단하고 있는 것이다. 국회의원이 앞장서면 언론은 선동하고 검찰이 행동대장 역할을 하고 있는 꼴이다. 평정심을 잃은 정도가 아니라 제정신이 아닌 것 같다.
-                
-                간 1조원의 매출을 올리는 기업도 몇 개 되지 않는 나라에 분기에 벌어들이는 이익만 10조 가까이 되는 고마운 기업을 잡아먹지 못해 안달하는 모양새라 참 보기 거북하구나. 외국 투자지분들이 합세하여 한국은 초일류기업이 활동하기 적합한 토양이 아니니 본사를 외국으로 옮기자고 투합하면 어쩌나 하는 걱정마저 든다. 황금알을 낳는 거위를 잡고 보니 정작 뱃속에는 황금알이 하나도 없더라는 우화도 모르단 말인가?
-            </p>
+    <!-- js file -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>티모태 - 마스크 기부 서비스</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Timotae</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"style="margin-left: 120px;">
+                      <a class="nav-link" href="#Introduce">서비스소개<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav-layout">
+                      <a class="nav-link" href="#Cherish">기부하기</a>
+                    </li>
+                    <li class="nav-item nav-layout">
+                        <a class="nav-link" href="#Current">기부현황</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container section-1">
+            <div class="description">
+                <div class="title-box">
+                    <h2 class="description-title">티모태 - 티끌 모아 태산</h2>
+                    <h5 class="description-sub">마스크 기부 서비스 플랫폼</h5>
+                </div>
             </div>
-            
-          </div> 
-          
-          <footer class="page-footer font-small blue pt-1" style="background: #71DAEB!important;text-align:center;padding-top:5px!important;">
-            <div class="row"style="text-align:center; background: #71DAEB!important;display:inline-block;width:100%;">
-                <p class="bold" style="color: white;">
-                  <br>이 홈페이지는 광운대학교 소프트웨어학부 "티모태" 팀이 제작하였습니다.
-                </p>
-                <p class="normal" style="color: white; text-align: center;">
-                  e-mail: songseungho9258@gmail.com
-                  <br>Instagram : t_mo_tae
+        </div>
+    </section>
+
+    <section>
+        <div class="container section-2" id="Introduce">
+            <br>
+            <h3>What Is &quot;TIMOTAE&quot;?</h3>
+            <p>
+                <p><strong>&lt;티모태&gt;</strong> 는 우리나라 속담인 &quot;티끌 모아 태산&quot;의 줄임말로, 시민들과 함께 하는 <mark>마스크 도네이션 서비스</mark>플랫폼입니다.</p>
                 <br>
-              </p>
-            </div>    
-          </footer>
-    </body>
+                <p><strong>&lt;티끌모아태산&gt;</strong><br>
+                저희는 급격하게 증가하고 있는 코로나19의 확산세에 따라 마스크의 수급이 원할하게 이루어지지 않는 모습을 많이 보아왔습니다.<br>
+                많은 국민들이 마스크가 부족한 상황이지만 특히 노약계층, 취약계층 등 복지의 사각지대에 계신분들은 저희보다 더 어려운 상황임을 알았습니다.<br>
+                이를 위해 저희 티모태는 <mark>여러 사람들의 1장, 2장 소량의 마스크를 모아 관련 기관에 전달</mark>하는 마스크 도네이션 서비스를 제공합니다. </p>
+                <br>
+                <p><strong>&lt;기부의 투명성&gt;</strong><br>
+                기부 시스템에서 가장 중요한 것은 <mark>&quot;투명성&quot;</mark>입니다.<br>
+                저희는 들어오고, 배급된 마스크의 개수를 30분마다 실시간으로 업데이트 합니다.<br>
+                기부 물품과 배급 상황은 홈패이지 내의 @@에서 매일 @시에 업데이트됩니다. </p>
+                <br>
+                <p><strong>&lt;저희를 소개합니다.&gt;</strong><br>
+                안녕하세요.<br>
+                저희는 광운대학교 소프트웨어학부 18, 19학번 7명으로 이루어진 대학생 예비 개발자들입니다.</p>
+                <h6>&lt;Member List&gt;</h6>
+                <ul>
+                    <br>
+                    <li>대표 : 광운대학교 소프트웨어학부 19. 이지우</li>
+                    <li>부대표 : 광운대학교 소프트웨어학부 19. 송승호</li>
+                </ul>
+                &quot;개발팀&quot;
+                <ul>
+                    <li>광운대학교 소프트웨어학부 18. 김진구</li>
+                    <li>광운대학교 소프트웨어학부 19. 손창민</li>
+                </ul>
+                &quot;디자인팀&quot;
+                <ul>
+                    <li>광운대학교 소프트웨어학부 19. 방다연</li>
+                    <li>광운대학교 소프트웨어학부 19. 김민철</li>
+                </ul>
+                &quot;홍보팀&quot;
+                <ul>
+                    <li>광운대학교 소프트웨어학부 19. 성명근</li>
+                </ul>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container section-3" id="Cherish">
+            <h4>기부하기 페이지</h4>
+            <a>동기들의 논쟁을 보고 한 마디 거든다. 내가 전에 쓴 글에서도 언급했지만... 좌, 우익은 새의 양 날개와 같아서 세상을 끌고 가는 두 축이라 시대 상황에 따라 득세를 넘겨주고 받을 수 있다. 그리고 시대가 바뀜에 따라 진보는 더 새로운 진보에게 밀려나기도 한다. 그리고 보수는 대중의 지지를 잃지 않으려고 사회적 책임을 다하는 한편 끊임없는 자기혁신을 하면서 생명력을 유지해가고 있다. 300년 역사를 자랑하는 영국의 경우 처럼. 그래서 좌우 논쟁은 일단 접어두고, 이번 사건이 갖고 있는 문제의 본질을 한번 따져보자. 내 색깔부터 밝힌다. 나는 테스트 해보나 마나 중도 보수 우파다. 우파지만 때로는 사안별로 좌파의 목소리에도 귀를 기울이는 유연성을 갖고 있다. 노무현 대통령이 한참 욕 먹고 있을 때도 그의 말에 귀울였었고, 그를 싫어하던 아내의 손을 이끌고 봉하마을도 다녀왔다. 본론으로 들어가서 이번 사건의 본질을 따지자면 나는 '기준과 선의 문제다' 라고 감히 단언한다. 군에서는 줄을 세우기 전에 기준부터 정한다. 그럼 기준되는 병사가 오른 손을 쳐들고 '기준!'하고 외치면 그에 따라 오와 열을 맞추어 정열을 하게 되는 것이다. 사회는 기준이 서야 질서가 유지되며 기준이 무너지면 질서가 무너지게 되어 있다. 기준은 기본이며 근본이며 원칙이며 윤리이고 법이기도 하다. 줄자에는 한쪽에 cm가 표기되어 있고, 다른 쪽에는 inch가 표기되어 있는데 경우에 따라 cm로 재다가 inch로 잰다면 어떻게 될까? 형평의 원리에 어긋나기 때문에 난리가 날 것이다. 내가 볼 때 지금이 꼭 그렇다. 국회, 언론, 검찰이 내부자가 되어 이중잣대를 들이밀며 세상을 재단하고 있는 것이다. 국회의원이 앞장서면 언론은 선동하고 검찰이 행동대장 역할을 하고 있는 꼴이다. 평정심을 잃은 정도가 아니라 제정신이 아닌 것 같다. 간 1조원의 매출을 올리는 기업도 몇 개 되지 않는 나라에 분기에 벌어들이는 이익만 10조 가까이 되는 고마운 기업을 잡아먹지 못해 안달하는 모양새라 참 보기 거북하구나. 외국 투자지분들이 합세하여 한국은 초일류기업이 활동하기 적합한 토양이 아니니 본사를 외국으로 옮기자고 투합하면 어쩌나 하는 걱정마저 든다. 황금알을 낳는 거위를 잡고 보니 정작 뱃속에는 황금알이 하나도 없더라는 우화도 모르단 말인가?</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container section-4" id="Current">
+            <h4>기부 현황</h4>
+            <p>
+                <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">서울시 마스크 기부 현황</a>
+                    <ul class="nav nav-pills">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">구 찾기</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#NW">노원구</a>
+                          <a class="dropdown-item" href="#DJ">동작구</a>
+                          <a class="dropdown-item" href="#YC">양천구</a>
+                          <a class="dropdown-item" href="#YDP">영등포구</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">구</th>
+                        <th scope="col">장소</th>
+                        <th scope="col">개수</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td id="NW">노원구</td>
+                        <td>광운대학교 정문</td>
+                        <td>대형 : 30장, 소형 : 0장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>노원구</td>
+                        <td>광운대학교 후문</td>
+                        <td>대형 : 20장, 소형 : 5장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>노원구</td>
+                        <td>상계역 2번출구</td>
+                        <td>대형 : 10장, 소형 : 25장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td id="DJ">동작구</td>
+                        <td>반포주공아파트 정문</td>
+                        <td>대형 : 15장, 소형 : 2장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>동작구</td>
+                        <td>이수역 14번출구</td>
+                        <td>대형 : 20장, 소형 : 5장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>동작구</td>
+                        <td>서문여자고등학교</td>
+                        <td>대형 : 10장, 소형 : 25장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td id="YC">양천구</td>
+                        <td>양정고등학교</td>
+                        <td>대형 : 30장, 소형 : 0장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>양천구</td>
+                        <td>목동 2단지아파트</td>
+                        <td>대형 : 20장, 소형 : 5장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>양천구</td>
+                        <td>오목교역 2번출구</td>
+                        <td>대형 : 10장, 소형 : 25장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td id="YDP">영등포구</td>
+                        <td>당산푸르지오아파트 정문</td>
+                        <td>대형 : 30장, 소형 : 0장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>영등포구</td>
+                        <td>당산역 6번출구</td>
+                        <td>대형 : 20장, 소형 : 5장</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>영등포구</td>
+                        <td>당산삼성래미안아파트</td>
+                        <td>대형 : 10장, 소형 : 25장</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+            </p>
+        </div>
+    </section>
+
+    
+    <footer class="page-footer font-small blue pt-1" style="background: rgb(247,248,249)!important;text-align:center;padding-top:5px!important;">
+        <div class="row"style="text-align:center; background: rgb(247,248,249)!important;display:inline-block;width:100%;">
+            <p class="bold" style="color: rgb(24,24,24);">
+            <br>이 홈페이지는 광운대학교 소프트웨어학부 "티모태" 팀이 제작하였습니다.
+            </p>
+            <p class="normal" style="color: rgb(24,24,24); text-align: center;">
+            e-mail: songseungho9258@gmail.com
+            <br>Instagram : t_mo_tae
+           
+            <br>
+        </p>
+        </div>    
+    </footer>
+   
+</body>
 </html>
