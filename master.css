@@ -23,13 +23,13 @@ section {
 section .description {
     text-align: center;
     font-family: "Nanum Gothic", sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(223,237,223);
     margin-top:50px;
 }
 
 section .title-box {
     width: 50%;
-    border: 3px solid #71DAEB;
+    border: 3px solid white;
     display: inline-block;
     border-radius: 12px;
     margin: 48px 0px 48px 0px;
@@ -38,10 +38,12 @@ section .title-box {
 
 .title-box .description-title {
     font-weight: bold;
+    color:grey;
     margin-top: 40px;
 }
 .title-box .description-sub {
     margin: 18px 0px 40px 0px;
+    color:grey;
 }
 
 .page-header{
