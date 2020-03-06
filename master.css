@@ -3,6 +3,7 @@
 
 body {
     background: #f8f9fa;
+    position : relative;
 }
 
 /* header css */
@@ -43,6 +44,11 @@ section .title-box {
     margin: 18px 0px 40px 0px;
 }
 
+.page-header{
+    margin-top:35px;
+    padding-top:35px;
+    padding-bottom:20px;
+}
 .page-footer{
     margin-top:40px;
 }
@@ -50,6 +56,7 @@ section .title-box {
 
 @media(max-width: 978px) {
 
+    
 }
 
 @media(min-width: 978px) {
