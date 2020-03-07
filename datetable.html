@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- jqurey file-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <script type="text/javascript">
+        jQuery(function($){ 
+            $("#table").DataTable(); 
+        }); 
+        $("#table").DataTable({
+        	// 표시 건수기능 숨기기
+        	lengthChange: true,
+        	// 검색 기능 숨기기
+        	searching: false,
+        	// 정렬 기능 숨기기
+            ordering: false
+            ,
+        	// 정보 표시 숨기기
+	        info: true,
+	        // 페이징 기능 숨기기
+	        paging: true
+        });
+    </script>
+</body>
