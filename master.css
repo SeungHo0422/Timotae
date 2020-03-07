@@ -35,6 +35,9 @@ section .title-box {
     margin: 48px 0px 48px 0px;
    
 }
+mark {
+    background-color : rgb(222,244,254);
+}
 
 #Contributor {
     margin-top: -40px;
@@ -50,6 +53,14 @@ section .title-box {
     display:table;
     width:100%;
     height:auto;
+    border-bottom : 2px dotted gainsboro;
+    padding-bottom : 20px;
+    
+}
+
+#Greeting {
+    text-align : left;
+    
 }
 .title-box .description-title {
     font-weight: bold;
@@ -69,6 +80,7 @@ section .title-box {
 .page-footer{
     margin-top:40px;
 }
+
 
 @media (max-width: 767.98px) { 
     #service div:first-child{
