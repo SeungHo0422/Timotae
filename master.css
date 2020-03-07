@@ -23,7 +23,7 @@ section {
 section .description {
     text-align: center;
     font-family: "Nanum Gothic", sans-serif;
-    background-color: rgb(223,237,223);
+    background-color: rgb(222,244,254);
     margin-top:50px;
 }
 
@@ -88,5 +88,5 @@ section .title-box {
 
 
 @media (min-width: 1200px) { 
-    
+
  }
