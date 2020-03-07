@@ -36,6 +36,21 @@ section .title-box {
    
 }
 
+#Contributor {
+    margin-top: -40px;
+    padding-top : 10px;
+}
+
+#date {
+    width : 80px;
+    text-align : center;
+    margin-top : 30px;
+}
+#list {
+    display:table;
+    width:100%;
+    height:auto;
+}
 .title-box .description-title {
     font-weight: bold;
     color:grey;
