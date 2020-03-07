@@ -56,7 +56,18 @@ section .title-box {
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 978px) {
+
+    
+}
+
+@media(min-width: 978px) {
+
+
+}
+
+
+@media (max-width: 575.98px) { 
     #service div:first-child{
         order: 2;
     }
@@ -64,3 +75,28 @@ section .title-box {
         order: 1;
     }
 }
+ 
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #service div:first-child{
+        order: 2;
+    }
+    #service div:last-child{
+        order: 1;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
