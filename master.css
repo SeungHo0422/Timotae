@@ -122,6 +122,7 @@ mark {
 #navbar-example2 > .nav-pills{
     float:right;
 }
+
 @media (max-width: 767.98px) { 
     #service div:first-child{
         order: 2;
@@ -140,7 +141,7 @@ mark {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-   
+    
 }
 
 
@@ -148,5 +149,26 @@ mark {
     #title::after{
         display: inline;
         content : "티모테 - 티끌 모아 태산";
+    }
+    
+ }
+
+ @media (min-width: 991.98px){
+    #table > tbody > tr > td > #big::after{
+        content: ", ";
+        width: auto;        
+    }
+    #table > tbody > tr > td > div > #big::after{
+        content: ", ";
+        width: auto;        
+    }
+    #table tbody tr td div{
+        display: inline;
+        width: auto;        
+    }
+ }
+ @media(max-width: 992px){
+    #table tr td div{
+        display: block;
     }
  }
