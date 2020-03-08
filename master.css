@@ -81,13 +81,7 @@ mark {
     margin-top:40px;
 }
 
-#carouselExampleIndicators{
-    margin: 0px auto;
-    max-width: 700px;
-}
-.carousel-indicators{
-    border-radius: 25px;
-}
+
 
 @media (max-width: 767.98px) { 
     #service div:first-child{
