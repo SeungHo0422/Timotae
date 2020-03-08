@@ -123,6 +123,16 @@ mark {
 #select{
     margin-right: 10px;
 }
+#form{
+    background-color:  rgb(63,49,185);
+    border: 1px solid;
+    border-radius:10px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+
+}
 /*
 #navbar-example2 > .nav-pills{
     float:right;
