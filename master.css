@@ -84,6 +84,10 @@ mark {
     margin: 0px auto;
     max-width: 700px;
 }
+thead >tr{
+    padding-top:10px;   
+    padding-bottom:10px;
+}
 /*화살표 그림자
 .carousel-control-prev  {
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
