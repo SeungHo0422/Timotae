@@ -84,10 +84,6 @@ mark {
     margin: 0px auto;
     max-width: 700px;
 }
-thead >tr{
-    padding-top:10px;   
-    padding-bottom:10px;
-}
 /*화살표 그림자
 .carousel-control-prev  {
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
@@ -123,10 +119,14 @@ thead >tr{
   height: 12px;
   background-color: rgb(179, 209, 255);
 }
+#select{
+    margin-right: 10px;
+}
+/*
 #navbar-example2 > .nav-pills{
     float:right;
 }
-
+*/
 @media (max-width: 767.98px) { 
     #service div:first-child{
         order: 2;
