@@ -17,7 +17,6 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     
     <!-- js file -->
-    <script type="text/javascript" src="moblie.js"></script>
     
     <!-- jqurey file-->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
@@ -45,11 +44,11 @@
                       <a class="nav-link" href="#Cherish">기부하기</a>
                     </li>
                     <li class="nav-item nav-layout">
-                        <a class="nav-link" href="#Current">기부현황</a>
+                      <a class="nav-link" href="#Current">기부현황</a>
                     </li>
                     <li class="nav-item nav-layout">
                       <a class="nav-link" href="#Programmers">개발자 소개</a>
-                  </li>
+                    </li>
                   </ul>
                 </div>
             </nav>
@@ -72,7 +71,7 @@
 
     <section>
         <div class="container section-2" id="Introduce">
-          <div class="page-header" style="padding-bottom:0px;">
+          <div class="page-header" style="padding-top:60px;padding-bottom:0px;">
             <h3>What Is &quot;TIMOTAE&quot;?</h3>
           </div>
             <br>
@@ -113,8 +112,8 @@
     </section>
 
     <section>
-        <div class="container section-3" id="Cherish">
-          <div class="page-header">
+        <div class="container section-3" id="Cherish" >
+          <div class="page-header"style="padding-top:60px;">
             <h3> 기부하기 </h3>
           </div>
             <p style=" border-top: 2px solid gray;">
@@ -158,118 +157,115 @@
     </section>
 
     <section>
-        <div class="container section-4" id="Current" style="padding-bottom:30px;">
-          <div class="page-header">
-            <h3> 기부 현황 </h3>
-            <div class="js-clock">
-              현재 서버 시간은 <a class="clock">00:00 </a> 입니다. 기부 현황은 매일 18시마다 업데이트됩니다.
-            </div>
-          </div>
-            <p style=" border: 1px solid gray;">
-                <nav id="navbar-example2" class="navbar navbar-light bg-light">
-                    <a class="navbar-brand" href="#">서울시 마스크 기부 현황 
-                      
-                   </a>
-                    <ul class="nav nav-pills">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">구 찾기</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#NW">노원구</a>
-                          <a class="dropdown-item" href="#DJ">동작구</a>
-                          <a class="dropdown-item" href="#YC">양천구</a>
-                          <a class="dropdown-item" href="#YDP">영등포구</a>
-                        </div>
-                      </li>
-                    </ul>
-                  </nav>
-                  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
-                  <table class="table table-striped" id="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">구</th>
-                        <th scope="col">장소</th>
-                        <th scope="col">개수</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td id="NW">노원구</td>
-                        <td>광운대학교 정문</td>
-                        <td>대형 : 30장, 소형 : 0장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>노원구</td>
-                        <td>광운대학교 후문</td>
-                        <td>대형 : 20장, 소형 : 5장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>노원구</td>
-                        <td>상계역 2번출구</td>
-                        <td>대형 : 10장, 소형 : 25장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td id="DJ">동작구</td>
-                        <td>반포주공아파트 정문</td>
-                        <td>대형 : 15장, 소형 : 2장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>동작구</td>
-                        <td>이수역 14번출구</td>
-                        <td>대형 : 20장, 소형 : 5장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">6</th>
-                        <td>동작구</td>
-                        <td>서문여자고등학교</td>
-                        <td>대형 : 10장, 소형 : 25장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">7</th>
-                        <td id="YC">양천구</td>
-                        <td>양정고등학교</td>
-                        <td>대형 : 30장, 소형 : 0장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">8</th>
-                        <td>양천구</td>
-                        <td>목동 2단지아파트</td>
-                        <td>대형 : 20장, 소형 : 5장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">9</th>
-                        <td>양천구</td>
-                        <td>오목교역 2번출구</td>
-                        <td>대형 : 10장, 소형 : 25장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">10</th>
-                        <td id="YDP">영등포구</td>
-                        <td>당산푸르지오아파트 정문</td>
-                        <td>대형 : 30장, 소형 : 0장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">11</th>
-                        <td>영등포구</td>
-                        <td>당산역 6번출구</td>
-                        <td>대형 : 20장, 소형 : 5장</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">12</th>
-                        <td>영등포구</td>
-                        <td>당산삼성래미안아파트</td>
-                        <td>대형 : 10장, 소형 : 25장</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  </div>
-            </p>
+      <div class="container section-4" id="Current" style="padding-bottom:30px;">
+      <div class="page-header" style="padding-top:60px">
+        <h3> 기부 현황 </h3>
+        <div class="js-clock">
+          현재 서버 시간은 <a class="clock">00:00 </a> 입니다. 기부 현황은 매일 18시마다 업데이트됩니다.
         </div>
+      </div>
+        <p style=" border: 1px solid gray;">
+          <nav id="navbar-example2" class="navbar-light bg-light">
+            <a class="navbar-brand" href="#">서울시 마스크 기부 현황 </a>
+            <ul class="nav nav-pills">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">구 찾기</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#NW">노원구</a>
+                  <a class="dropdown-item" href="#DJ">동작구</a>
+                  <a class="dropdown-item" href="#YC">양천구</a>
+                  <a class="dropdown-item" href="#YDP">영등포구</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
+          <table class="table table-striped" id="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">구</th>
+                <th scope="col">장소</th>
+                <th scope="col">개수</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td id="NW">노원구</td>
+                <td>광운대학교 정문</td>
+                <td><div id="big">대형 : 30장</div> <div>소형 : 0장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>노원구</td>
+                <td>광운대학교 후문</td>
+                <td><div id="big">대형 : 20장</div> <div>소형 : 5장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>노원구</td>
+                <td>상계역 2번출구</td>
+                <td><div id="big">대형 : 10장</div> <div>소형 : 25장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td id="DJ">동작구</td>
+                <td>반포주공아파트 정문</td>
+                <td><div id="big">대형 : 15장</div> <div>소형 : 2장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>동작구</td>
+                <td>이수역 14번출구</td>
+                <td><div id="big">대형 : 20장</div><div>소형 : 5장</div> </td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>동작구</td>
+                <td>서문여자고등학교</td>
+                <td><div id="big">대형 : 10장</div><div>소형 : 25장</div> </td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td id="YC">양천구</td>
+                <td>양정고등학교</td>
+                <td><div id="big">대형 : 30장</div><div>소형 : 0장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>양천구</td>
+                <td>목동 2단지아파트</td>
+                <td><div id="big">대형 : 15장</div><div>소형 : 5장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>양천구</td>
+                <td>오목교역 2번출구</td>
+                <td><div id="big">대형 : 10장</div><div>소형 : 25장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td id="YDP">영등포구</td>
+                <td>당산푸르지오아파트 정문</td>
+                <td><div id="big">대형 : 30장</div><div>소형 : 0장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>영등포구</td>
+                <td>당산역 6번출구</td>
+                <td><div id="big">대형 : 20장</div><div>소형 : 5장</div></td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>영등포구</td>
+                <td>당산삼성래미안아파트</td>
+                <td><div id="big">대형 : 10장</div><div>소형 : 25장</div></td>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+      </div>
     </section>
     <section>
       <div class="container section-5" id="Current" style="padding-bottom:30px;">
