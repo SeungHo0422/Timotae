@@ -124,13 +124,12 @@ mark {
     margin-right: 10px;
 }
 #form{
+    display: block;
     background-color:  rgb(63,49,185);
     border: 1px solid;
     border-radius:10px;
-    width: 150px;
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
+    margin: auto;
+    font-size: 25px;
 
 }
 /*
