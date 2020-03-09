@@ -153,7 +153,7 @@ thead >tr{
 @media (min-width: 768px) { 
     #title::after{
         display: inline;
-        content : "티모테 - 티끌 모아 태산";
+        content : "티모태 - 티끌 모아 태산";
     }
     
  }
