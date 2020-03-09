@@ -27,7 +27,7 @@ $(document).ready(function () {
                 "previous": "이전"
             }
         },
-        /*
+        
         "footerCallback":function(){
             var api = this.api(), data;
             var big_result = 0;
@@ -36,13 +36,13 @@ $(document).ready(function () {
                 big_result += parseInt(data.split(" : ")[1].split("장")[0]);
                 small_result += parseInt(data.split(" : ")[2].split("장")[0]);
                 console.log(big_result)
-                $('#').html( "대형 : " + big_result.toLocaleString()+" 소형 : " + small_result.toLocaleString());
+                $('#total').html( "전체 수량 - 대형 : " + big_result.toLocaleString()+" 소형 : " + small_result.toLocaleString());
             }
             );
             
         },
-        #에 내용을 보여줄 곳의 id 태그를 입력해주세요 ㅎㅎ
-       */
+        //#에 내용을 보여줄 곳의 id 태그를 입력해주세요 ㅎㅎ
+       
     }); 
     $('#table_filter').prepend('<select id="select"></select>');
     $('#table > thead > tr').children().each(function (indexInArray, valueOfElement) { 
@@ -51,9 +51,7 @@ $(document).ready(function () {
     
     $('.dataTables_filter input').unbind().bind('keyup', function () {
         var colIndex = document.querySelector('#select').selectedIndex;     
-        table.column(colIndex).search(this.value).draw();
-        
-       
+        table.column(colIndex).search(this.value).draw();       
     });
 
 
