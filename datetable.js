@@ -8,7 +8,8 @@ $(document).ready(function () {
             {"data": "#"},
             {"data": "구"},
             {"data": "장소"}, 
-            {"data": "개수"}
+            {"data": "개수"},
+            {"data": "수혜처"}
 
         ],
         "language": {
