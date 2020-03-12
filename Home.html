@@ -12,13 +12,16 @@
     <!-- css file -->
     <link rel="stylesheet" href="master.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="responsive.dataTables.min.css">
+
     <!-- js file -->
-    
+    <script src="button.js"></script>
 
     <!-- jqurey file-->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/dataTables.responsive.css">
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.js"></script>
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -161,6 +164,7 @@
         <h3> 기부 현황 </h3>
         <div class="js-clock">
           현재 서버 시간은 <a class="clock">00:00 </a> 입니다. 기부 현황은 매일 18시마다 업데이트됩니다.
+          <div id="total" style="float:right; ">전체 대형 : @@, 전체 소형 : @@</div>
         </div>
       </div>
         <p style=" border: 1px solid gray;">
@@ -182,7 +186,7 @@
           <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
           -->
 
-          <table class="table table-striped" id="table">
+          <table class="table table-striped" id="table" style="width: 100%;">
             <thead>
               <tr>
                 <th scope="col">#</th>

@@ -132,6 +132,8 @@ mark {
     font-size: 25px;
 
 }
+
+
 /*
 #navbar-example2 > .nav-pills{
     float:right;
@@ -157,7 +159,9 @@ mark {
     }
     
 }
-
+table td{
+    white-space:nowrap;
+}
 
 @media (min-width: 768px) { 
     #title::after{
@@ -183,5 +187,20 @@ mark {
  @media(max-width: 992px){
     #table tr td div{
         display: block;
+    }
+ }
+
+ /* 모바일 검색 창 크기 조절 */
+ @media(max-width : 380px){
+    input{
+        box-sizing: content-box;
+        width: 100px;
+    }
+ }
+
+ @media(max-width : 310px){
+    input{
+        box-sizing: content-box;
+        width: 50px;
     }
  }
